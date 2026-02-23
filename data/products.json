@@ -1,0 +1,302 @@
+[
+  {
+    "id": "mbp-16-m3max",
+    "name": "MacBook Pro 16-inch (M3 Max)",
+    "brand": "Apple",
+    "price": 3499,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Apple M3 Max (16-core)",
+      "RAM": "48GB Unified Memory",
+      "Storage": "1TB SSD",
+      "Battery Life": "Up to 22 hours",
+      "Weight": "4.7 lbs"
+    },
+    "target_persona": [
+      "I edit 8K video",
+      "I run complex 3D renders",
+      "I compile large codebases",
+      "I need desktop-level power on the go"
+    ]
+  },
+  {
+    "id": "mba-15-m3",
+    "name": "MacBook Air 15-inch (M3)",
+    "brand": "Apple",
+    "price": 1499,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Apple M3 (8-core)",
+      "RAM": "16GB Unified Memory",
+      "Storage": "512GB SSD",
+      "Battery Life": "Up to 18 hours",
+      "Weight": "3.3 lbs"
+    },
+    "target_persona": [
+      "I travel constantly",
+      "I write and research all day",
+      "I have 100 tabs open",
+      "I want a silent, fast machine"
+    ]
+  },
+  {
+    "id": "xps-14-9440",
+    "name": "Dell XPS 14 (9440)",
+    "brand": "Dell",
+    "price": 1899,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core Ultra 7 155H",
+      "RAM": "32GB LPDDR5x",
+      "Storage": "1TB SSD",
+      "Battery Life": "Up to 15 hours",
+      "Weight": "3.7 lbs"
+    },
+    "target_persona": [
+      "I work in stylish coffee shops",
+      "I present to clients",
+      "I need a sleek Windows machine",
+      "I run multiple business apps at once"
+    ]
+  },
+  {
+    "id": "thinkpad-x1-carbon-gen12",
+    "name": "ThinkPad X1 Carbon Gen 12",
+    "brand": "Lenovo",
+    "price": 1950,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core Ultra 7 155U",
+      "RAM": "32GB LPDDR5x",
+      "Storage": "1TB PCIe Gen4 SSD",
+      "Battery Life": "Up to 14 hours",
+      "Weight": "2.42 lbs"
+    },
+    "target_persona": [
+      "I type thousands of words a day",
+      "I am a corporate executive",
+      "I value durability and keyboards",
+      "I travel light"
+    ]
+  },
+  {
+    "id": "blade-16-2024",
+    "name": "Razer Blade 16",
+    "brand": "Razer",
+    "price": 3599,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core i9-14900HX",
+      "RAM": "32GB DDR5",
+      "Storage": "2TB NVMe SSD",
+      "Battery Life": "Up to 5 hours",
+      "Weight": "5.4 lbs"
+    },
+    "target_persona": [
+      "I play AAA games on Ultra settings",
+      "I do high-end 3D modeling",
+      "I don't mind carrying a charger",
+      "I want premium build quality with max power"
+    ]
+  },
+  {
+    "id": "zephyrus-g14-2024",
+    "name": "ROG Zephyrus G14",
+    "brand": "ASUS",
+    "price": 1999,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "AMD Ryzen 9 8945HS",
+      "RAM": "32GB LPDDR5X",
+      "Storage": "1TB PCIe 4.0 SSD",
+      "Battery Life": "Up to 10 hours",
+      "Weight": "3.31 lbs"
+    },
+    "target_persona": [
+      "I game but also travel",
+      "I run local AI models",
+      "I need an OLED screen for media",
+      "I want a portable powerhouse"
+    ]
+  },
+  {
+    "id": "surface-laptop-7-13",
+    "name": "Surface Laptop 7th Edition",
+    "brand": "Microsoft",
+    "price": 1199,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Snapdragon X Elite",
+      "RAM": "16GB LPDDR5x",
+      "Storage": "512GB SSD",
+      "Battery Life": "Up to 20 hours",
+      "Weight": "2.96 lbs"
+    },
+    "target_persona": [
+      "I live in Microsoft Office",
+      "I want incredible battery life",
+      "I prefer a touchscreen",
+      "I do basic web and document tasks"
+    ]
+  },
+  {
+    "id": "chromebook-plus-cx34",
+    "name": "Chromebook Plus CX34",
+    "brand": "ASUS",
+    "price": 439,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core i3-1215U",
+      "RAM": "8GB LPDDR5",
+      "Storage": "128GB UFS",
+      "Battery Life": "Up to 10 hours",
+      "Weight": "3.17 lbs"
+    },
+    "target_persona": [
+      "I only do web browsing and email",
+      "I am on a very tight budget",
+      "I want something simple and virus-free",
+      "I don't need to install desktop apps"
+    ]
+  },
+  {
+    "id": "hp-spectre-x360-14",
+    "name": "Spectre x360 14",
+    "brand": "HP",
+    "price": 1499,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core Ultra 7 155H",
+      "RAM": "16GB LPDDR5x",
+      "Storage": "1TB SSD",
+      "Battery Life": "Up to 13 hours",
+      "Weight": "3.19 lbs"
+    },
+    "target_persona": [
+      "I take handwritten notes",
+      "I watch a lot of movies on the couch",
+      "I appreciate luxury design elements",
+      "I need a 2-in-1 convertible"
+    ]
+  },
+  {
+    "id": "lg-gram-17-2024",
+    "name": "LG Gram 17",
+    "brand": "LG",
+    "price": 1699,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core Ultra 7 155H",
+      "RAM": "16GB LPDDR5X",
+      "Storage": "1TB NVMe SSD",
+      "Battery Life": "Up to 19 hours",
+      "Weight": "2.98 lbs"
+    },
+    "target_persona": [
+      "I need a massive screen",
+      "I hate heavy backpacks",
+      "I work with massive spreadsheets",
+      "I travel light but need big visuals"
+    ]
+  },
+  {
+    "id": "thinkpad-p16-gen2",
+    "name": "ThinkPad P16 Gen 2",
+    "brand": "Lenovo",
+    "price": 4200,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core i9-13980HX",
+      "RAM": "64GB DDR5",
+      "Storage": "2TB PCIe Gen4 SSD",
+      "Battery Life": "Up to 6 hours",
+      "Weight": "6.5 lbs"
+    },
+    "target_persona": [
+      "I run CAD software professionally",
+      "I need ISV certifications",
+      "I have unlimited corporate budget",
+      "I replace a desktop workstation"
+    ]
+  },
+  {
+    "id": "mbp-14-m3",
+    "name": "MacBook Pro 14-inch (M3)",
+    "brand": "Apple",
+    "price": 1599,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Apple M3 (8-core)",
+      "RAM": "16GB Unified Memory",
+      "Storage": "512GB SSD",
+      "Battery Life": "Up to 22 hours",
+      "Weight": "3.4 lbs"
+    },
+    "target_persona": [
+      "I am a student with a good budget",
+      "I want pro features but don't need max power",
+      "I edit photos and make music",
+      "I want a gorgeous Mini-LED screen"
+    ]
+  },
+  {
+    "id": "legion-pro-7i",
+    "name": "Legion Pro 7i Gen 9",
+    "brand": "Lenovo",
+    "price": 2499,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core i9-14900HX",
+      "RAM": "32GB DDR5",
+      "Storage": "1TB PCIe 4.0 SSD",
+      "Battery Life": "Up to 5 hours",
+      "Weight": "6.17 lbs"
+    },
+    "target_persona": [
+      "I play competitive esports",
+      "I value cooling and performance over portability",
+      "I stream my gameplay",
+      "I prefer a subdued gaming laptop look"
+    ]
+  },
+  {
+    "id": "framework-laptop-13",
+    "name": "Framework Laptop 13",
+    "brand": "Framework",
+    "price": 1399,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7840U",
+      "RAM": "32GB DDR5",
+      "Storage": "1TB NVMe SSD",
+      "Battery Life": "Up to 11 hours",
+      "Weight": "2.87 lbs"
+    },
+    "target_persona": [
+      "I care deeply about repairability",
+      "I want to upgrade my laptop in 3 years",
+      "I use Linux often",
+      "I like tinkering with hardware"
+    ]
+  },
+  {
+    "id": "acer-chromebook-spin-714",
+    "name": "Chromebook Spin 714",
+    "brand": "Acer",
+    "price": 699,
+    "image_url": "/placeholder-laptop.svg",
+    "specs": {
+      "CPU": "Intel Core i5-1335U",
+      "RAM": "8GB LPDDR4X",
+      "Storage": "256GB PCIe Gen 4 SSD",
+      "Battery Life": "Up to 10 hours",
+      "Weight": "3.02 lbs"
+    },
+    "target_persona": [
+      "I want a premium Chromebook",
+      "I use Android apps heavily",
+      "I am a high school or college student",
+      "I need a tough 2-in-1 for classes"
+    ]
+  }
+]
