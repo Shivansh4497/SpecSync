@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Share, Laptop, AlertCircle, RefreshCcw, Zap, Globe, Coins, HardDrive, Lightbulb } from "lucide-react";
+import { Share, Laptop, AlertCircle, RefreshCcw, Zap, Globe, Coins, HardDrive, Lightbulb, Sparkles, ShieldAlert, Scale } from "lucide-react";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -364,6 +364,54 @@ export default function SpecSyncMVP() {
           </div>
         )}
 
+        {/* Value Proposition Grid */}
+        {state === "idle" && (
+          <div className="pt-16 pb-8 max-w-4xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+
+              {/* Pillar 1: Workflow Translation */}
+              <div className="flex flex-col items-start">
+                <div className="bg-indigo-50 p-2 rounded-lg mb-4 border border-indigo-100/50">
+                  <Sparkles className="w-5 h-5 text-indigo-600" />
+                </div>
+                <h3 className="text-sm font-semibold text-zinc-900 mb-2">
+                  Workflow Translation
+                </h3>
+                <p className="text-sm text-zinc-500 leading-relaxed">
+                  Stop guessing what 16GB of Unified Memory means. Describe your daily apps, tabs, and tasks, and our AI translates your life into exact hardware constraints.
+                </p>
+              </div>
+
+              {/* Pillar 2: Hardware Physics Engine */}
+              <div className="flex flex-col items-start">
+                <div className="bg-indigo-50 p-2 rounded-lg mb-4 border border-indigo-100/50">
+                  <ShieldAlert className="w-5 h-5 text-indigo-600" />
+                </div>
+                <h3 className="text-sm font-semibold text-zinc-900 mb-2">
+                  Hardware Physics Engine
+                </h3>
+                <p className="text-sm text-zinc-500 leading-relaxed">
+                  Our multi-agent auditor prevents costly mistakes. If your budget is too low for your intense workflow, or if you pick an incompatible OS, we stop you before you buy.
+                </p>
+              </div>
+
+              {/* Pillar 3: Unbiased Fiduciary */}
+              <div className="flex flex-col items-start">
+                <div className="bg-indigo-50 p-2 rounded-lg mb-4 border border-indigo-100/50">
+                  <Scale className="w-5 h-5 text-indigo-600" />
+                </div>
+                <h3 className="text-sm font-semibold text-zinc-900 mb-2">
+                  Unbiased Fiduciary
+                </h3>
+                <p className="text-sm text-zinc-500 leading-relaxed">
+                  No affiliate bias. We calculate exact price-to-performance ROI and actively tell you when a cheaper machine can comfortably handle your workload.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        )}
+
         {/* State: LOADING */}
         {state === "loading" && (
           <div className="bg-white border border-zinc-200 shadow-sm rounded-xl p-12 flex flex-col items-center justify-center text-center space-y-6 animate-pulse">
@@ -592,6 +640,6 @@ export default function SpecSyncMVP() {
           )}
 
       </div>
-    </main>
+    </main >
   );
 }

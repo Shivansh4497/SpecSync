@@ -423,3 +423,19 @@ Recommendation API Error: Error [ApiError]: {"error":{"code":429,"message":"You 
 [aiRouter] gemini-2.5-flash failed (429). Falling back to next model...
 [aiRouter] llama-3.3-70b-versatile failed (429). Falling back to next model...
  POST /api/recommend 200 in 1595ms (compile: 18ms, render: 1577ms)
+✓ Compiled in 2.1s
+ GET / 200 in 1343ms (compile: 1074ms, render: 268ms)
+ GET / 200 in 279ms (compile: 13ms, render: 266ms)
+ GET / 200 in 240ms (compile: 10ms, render: 230ms)
+ GET / 200 in 186ms (compile: 27ms, render: 158ms)
+ GET / 200 in 97ms (compile: 6ms, render: 91ms)
+ GET / 200 in 76ms (compile: 3ms, render: 73ms)
+ GET / 200 in 86ms (compile: 2ms, render: 84ms)
+ GET / 200 in 142ms (compile: 1898µs, render: 140ms)
+ GET / 200 in 122ms (compile: 6ms, render: 116ms)
+ GET / 200 in 84ms (compile: 33ms, render: 51ms)
+ GET / 200 in 159ms (compile: 11ms, render: 148ms)
+ GET / 200 in 122ms (compile: 6ms, render: 117ms)
+ GET / 200 in 97ms (compile: 6ms, render: 91ms)
+ GET / 200 in 64ms (compile: 11ms, render: 53ms)
+ GET / 200 in 136ms (compile: 4ms, render: 132ms)
