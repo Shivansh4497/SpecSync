@@ -439,3 +439,16 @@ Recommendation API Error: Error [ApiError]: {"error":{"code":429,"message":"You 
  GET / 200 in 97ms (compile: 6ms, render: 91ms)
  GET / 200 in 64ms (compile: 11ms, render: 53ms)
  GET / 200 in 136ms (compile: 4ms, render: 132ms)
+✓ Compiled in 442ms
+✓ Compiled in 17ms
+ POST /api/recommend 200 in 4.7s (compile: 192ms, render: 4.5s)
+ POST /api/recommend 400 in 43ms (compile: 37ms, render: 6ms)
+[aiRouter] gemini-2.5-flash failed (429). Falling back to next model...
+ POST /api/recommend 200 in 2.5s (compile: 23ms, render: 2.5s)
+[aiRouter] gemini-2.5-flash failed (429). Falling back to next model...
+[aiRouter] llama-3.3-70b-versatile failed (429). Falling back to next model...
+ POST /api/recommend 200 in 1351ms (compile: 51ms, render: 1300ms)
+[aiRouter] gemini-2.5-flash failed (429). Falling back to next model...
+[aiRouter] llama-3.3-70b-versatile failed (429). Falling back to next model...
+ POST /api/recommend 200 in 1624ms (compile: 43ms, render: 1581ms)
+✓ Compiled in 209ms
