@@ -292,12 +292,26 @@ export default function SpecSyncMVP() {
     }
   };
 
-  const handleShare = () => {
-    navigator.clipboard.writeText(
-      `SpecSync recommends the ${result?.results?.find((r: any) => r.tier_type === 'recommended')?.product?.name} for me because: ${result?.results?.find((r: any) => r.tier_type === 'recommended')?.tradeoff_summary}`
-    );
-    setToastMessage("Copied to clipboard!");
-    setTimeout(() => setToastMessage(""), 3000);
+  const handleShare = async (laptop: any, cumulativeProfile: any) => {
+    // 1. Sanitize and format the active constraints
+    const activeConstraints = Object.entries(cumulativeProfile)
+      .filter(([_, value]) => value !== null && value !== "")
+      .map(([key, value]) => `${key.charAt(0).toUpperCase() + key.slice(1)}: ${value}`)
+      .join(', ');
+
+    // 2. Construct the PLG share string
+    const shareText = `I used SpecSync to find a machine for my workflow: [${activeConstraints}].\n\nIt recommended the ${laptop.name} for $${laptop.price}.\n\nHere is the AI's reality check:\n"${laptop.tradeoff_summary}"\n\n⚡️ Find your exact match at: https://specsync-wine.vercel.app/`;
+
+    // 3. Execute copy and trigger toast
+    try {
+      await navigator.clipboard.writeText(shareText);
+      setToastMessage("Copied to clipboard!");
+      setTimeout(() => setToastMessage(""), 3000);
+    } catch (err) {
+      console.error('Failed to copy text: ', err);
+      setToastMessage("Failed to copy. Please try again.");
+      setTimeout(() => setToastMessage(""), 3000);
+    }
   };
 
   return (
@@ -616,7 +630,11 @@ export default function SpecSyncMVP() {
                       {/* Footer: PLG button */}
                       <div className="p-4 sm:p-5 pb-5 mt-auto bg-white">
                         <button
-                          onClick={handleShare}
+                          onClick={() => handleShare({
+                            name: item.product?.name,
+                            price: item.product?.price,
+                            tradeoff_summary: item.tradeoff_summary
+                          }, cumulativeProfile)}
                           className="w-full cursor-pointer bg-white hover:bg-indigo-50 border border-indigo-200 text-indigo-600 font-medium py-2.5 rounded-lg transition-colors flex items-center justify-center gap-2 shadow-sm text-sm"
                         >
                           <Share className="w-3.5 h-3.5" />
