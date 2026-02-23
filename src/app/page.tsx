@@ -648,7 +648,20 @@ export default function SpecSyncMVP() {
 
               <div className="w-full flex justify-center mt-8 animate-in fade-in duration-500">
                 <button
-                  onClick={() => { setState("idle"); setQuery(""); }}
+                  onClick={() => {
+                    setState("idle");
+                    setQuery("");
+                    setErrorMessage("");
+                    setResult(null);
+                    setToastMessage("");
+                    setContext("");
+                    setClarifyInput("");
+                    setClarifyData(null);
+                    setRefinementInput("");
+                    setCumulativeProfile({});
+                    setLocalProfile({});
+                    setClarifySubmitCount(0);
+                  }}
                   className="cursor-pointer text-center text-sm text-zinc-500 hover:text-zinc-900 transition-colors font-medium"
                 >
                   Start over
